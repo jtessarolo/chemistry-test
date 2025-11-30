@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>H5P Standalone Crossword</title>
+<script src="https://cdn.jsdelivr.net/npm/h5p-standalone@1.3.0/dist/main.bundle.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/h5p-standalone@1.3.0/dist/styles.css">
+<style> body { margin:0; } </style>
+</head>
+<body>
+<div id="h5p-container"></div>
+<script>
+  new H5PStandalone.H5P(document.getElementById('h5p-container'), {
+    h5pContent: "content",
+    librariesPath: "libraries"
+  });
+</script>
+</body>
+</html>
